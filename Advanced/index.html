@@ -12,26 +12,26 @@
 </head>
 
 <body>
-    <div id="why">jhgjj
-    </div>
+    <button type="button" onclick="check()">check</button>
     <script type="text/javascript" src="data.json"></script>
     <script>
-    document.getElementById("why").style.backgroundColor = "red";
-    
     document.write("<ul>");
     for (var i = 0; i < books.length; i++) {
 
         var obj = books[i];
-
+        var name = "div" + i;
         document.write("<img src=\"" + obj.image + "\">");
-        document.write("<li><div id=\"div" + i + "\" > title: " + obj.title + " - author: " + obj.author + "</li></div><br>");
+        document.write("<li><div id=\"" + name + "\" > title: " + obj.title + " - author: " + obj.author + "</li></div><br>");
+       
+        if (obj.read == "true") {
+            document.getElementById(name).style.backgroundColor = "red";
+        } else {
+            document.getElementById(name).style.backgroundColor = "green";
 
-
-        if (obj.read == false) {
-            document.getElementById("\"div" + i + "\"").style.backgroundColor = "red";
         }
-
     }
+
+
     document.write("</ul>");
     </script>
 </body>
