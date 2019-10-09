@@ -1,133 +1,138 @@
-{
-
-        "Employees": [{
+var json= [
+        {
 
             "userId": "1",
-          
+
             "firstName": "Patrik",
 
             "lastName": "Jonathan",
 
             "emailAddress": "patrik.k.jonathan@gmail.com",
 
-			"jobTitleName": "Developer",
-           
+            "jobTitleName": "Developer",
+
             "salary": "CA",
 
-            
 
-        }, {
 
-             "userId": "2",
-          
+        },
+        {
+
+            "userId": "2",
+
             "firstName": "Kurt",
 
             "lastName": "Cobain",
 
             "emailAddress": "coboin@gmail.com",
 
-			"jobTitleName": "Musican",
-           
+            "jobTitleName": "Musican",
+
             "salary": "none",
 
-        }, {
+        },
+        {
 
-             "userId": "3",
-          
+            "userId": "3",
+
             "firstName": "Himmy",
 
             "lastName": "Hendrix",
 
             "emailAddress": "handrix@gmail.com",
 
-			"jobTitleName": "Musican",
-           
+            "jobTitleName": "Musican",
+
             "salary": "music",
 
-        }, {
+        },
+        {
 
-             "userId": "4",
-          
+            "userId": "4",
+
             "firstName": "Nina",
 
             "lastName": "Simon",
 
             "emailAddress": "siomon@gmail.com",
 
-			"jobTitleName": "Musican",
-           
+            "jobTitleName": "Musican",
+
             "salary": "music",
 
-        }, {
+        },
+        {
 
-             "userId": "5",
-          
+            "userId": "5",
+
             "firstName": "Jack",
 
             "lastName": "White",
 
             "emailAddress": "stripes@gmail.com",
 
-			"jobTitleName": "Musican",
-           
+            "jobTitleName": "Musican",
+
             "salary": "music",
 
-        }, {
+        },
+        {
 
-             "userId": "6",
-          
+            "userId": "6",
+
             "firstName": "Magan",
 
             "lastName": "White",
 
             "emailAddress": "white@gmail.com",
 
-			"jobTitleName": "Musican",
-           
+            "jobTitleName": "Musican",
+
             "salary": "music",
 
-        }, {
+        },
+        {
 
-             "userId": "7",
-          
+            "userId": "7",
+
             "firstName": "Wolfgang",
 
             "lastName": "Mozart",
 
             "emailAddress": "mozart@gmail.com",
 
-			"jobTitleName": "Musican",
-           
+            "jobTitleName": "Musican",
+
             "salary": "music",
 
-        }, {
+        },
+        {
 
-             "userId": "8",
-          
+            "userId": "8",
+
             "firstName": "Ludwig",
 
             "lastName": "van Bethooven",
 
             "emailAddress": "hooven@gmail.com",
 
-			"jobTitleName": "Musican",
-           
+            "jobTitleName": "Musican",
+
             "salary": "music",
 
-        }, {
+        },
+        {
 
-             "userId": "9",
-          
+            "userId": "9",
+
             "firstName": "Hubert",
 
             "lastName": "Anything",
 
             "emailAddress": "anything@gmail.com",
 
-			"jobTitleName": "Manager",
-           
+            "jobTitleName": "Manager",
+
             "salary": "music",
 
         }]
-
-    }
