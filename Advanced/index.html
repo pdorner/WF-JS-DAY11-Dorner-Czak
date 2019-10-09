@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Advanced</title>
+    <style type="text/css" media="screen">
+    img {
+        width: 250px;
+        height: 200px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="why">jhgjj
+    </div>
+    <script type="text/javascript" src="data.json"></script>
+    <script>
+    document.getElementById("why").style.backgroundColor = "red";
+    
+    document.write("<ul>");
+    for (var i = 0; i < books.length; i++) {
+
+        var obj = books[i];
+
+        document.write("<img src=\"" + obj.image + "\">");
+        document.write("<li><div id=\"div" + i + "\" > title: " + obj.title + " - author: " + obj.author + "</li></div><br>");
+
+
+        if (obj.read == false) {
+            document.getElementById("\"div" + i + "\"").style.backgroundColor = "red";
+        }
+
+    }
+    document.write("</ul>");
+    </script>
+</body>
+
+</html>

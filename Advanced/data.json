@@ -1,0 +1,29 @@
+var books = [
+{
+    "title": "Javascript for Dummies",
+
+    "author": "Dummy Dumb Dumb",
+
+    "read": "false",
+
+    "image" :"hotel_1.jpg"
+},
+{
+    "title": "Java for Dummies",
+
+    "author": "Dummy Di Dumb",
+
+    "read": "false",
+
+    "image" :"hotel_2.jpg"
+
+},
+{
+    "title": "The Internet for Dummies",
+
+    "author": "Dumb Dumb",
+
+    "read": "true",
+
+    "image" :"hotel_3.jpg"
+}];
